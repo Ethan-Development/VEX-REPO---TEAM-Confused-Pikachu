@@ -20,6 +20,11 @@ from motors.motorD import D
 from control.control import automv
 from control.control import manmv
 
+from vex import *
+
 if __name__ == "__main__":
+    brain=Brain()
+    brain.screen.print("Hello V5")
+    
     camera(0, 0, True)
 
